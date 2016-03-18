@@ -13,11 +13,13 @@ User should be able to enter STOP at any time
 input = ""
 
 until input == "STOP" do
+
 first = rand(10)
 second = rand(10)
+
 puts "What is #{first} + #{second}"
 input = gets.chomp
-#answer = gets.chomp.to_i
+
 	if input.to_i == first + second
 		puts "Yay, you're right!!!"
 	else
