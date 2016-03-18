@@ -1,2 +1,2 @@
-# launchschoool
+# launchschool
 Launchschool Exercises
