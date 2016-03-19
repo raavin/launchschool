@@ -1,0 +1,15 @@
+# Personal
+
+Temperement to persue thw cause of an issue patientle
+
+It is important to learn the inner workings and edge cases for ruby. Keep investigating each subject. Don't just move on.
+
+# General approach - 
+
+With errors, make sure that you can reproduce the error before you start debugging.
+
+# Tools
+
+Spraying puts
+
+check out pry gem
