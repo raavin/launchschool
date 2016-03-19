@@ -1,3 +1,10 @@
+=beging
+I started with this strategy but got a bit stuck so have looked at the strategy suggested by launchschool.
+Sorting is definitely the easiest way to go but in the interest of not cheating, I have decided to continue on to see if mu original strategy would work.
+Currently I can identify the anagrams and, cheating a bit with uniq can get them in order.
+anagrams_all seems to capture the first iteration but am still trying to figure out how I can start a new group of words in a new array.
+currently the first array keeps getting added to.
+=end
 words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
           'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
           'flow', 'neon', 'flfub', 'flufm']
