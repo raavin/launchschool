@@ -20,7 +20,16 @@ push word to new array if
 #p words[0][0]
 #p words[0].split("").include?(words[target_word_index][letter])
 
-words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
+# TODO:
+# 1.  If i include a word with more than one of the same letter, 
+# 		it will find the letter in the target word even if there is only one.
+#  		Need to perhaps pop off the letter once counted
+# 2.  Currently only works with numbers with 4 digits. It will do the 
+#  		count but will only check 4 letters
+
+
+
+words =  ['dddd', 'demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
           'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
           'flow', 'neon', 'flfub', 'flufm']
 
