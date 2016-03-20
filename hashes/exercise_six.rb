@@ -37,7 +37,7 @@ def sort_anagrams(words)
 				 words[reference_word_index].split("").include?(words[index][0]) && 
 				 words[reference_word_index].split("").include?(words[index][1]) &&
 				 words[reference_word_index].split("").include?(words[index][2]) &&
-			   words[reference_word_index].split("").include?(words[index][3])
+				 words[reference_word_index].split("").include?(words[index][3])
 
 				 anagrams << item
 			end
